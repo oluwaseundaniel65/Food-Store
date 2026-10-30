@@ -2,29 +2,45 @@
 <html lang="en">
 <head>
     <link href="style.css" rel="stylesheet">
-    <meta charset="UTF-8"
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>food stuff</title>
 </head>
 <body>
     <header>
-    <h1>DANIEL FOODSTUFF STORE </h1>
-<P><em>welcome to Daniel Foodstuff Store, we have a variety of food items for you to choose from. your trusted place for quality food items. 
-</em></P>
-<nav>
-<ul>
-    <li><a href="" >Home</a>Home</li>
-     <li><a href="" >About Us</a>About Us</li>
-      <li><a href="" >Product</a>Product</li>
-       <li><a href="" >Services</a>Services</li>
-</ul> <li><a href="" >Contact Us</a>Contact Us</li>
+        <nav>
+        <div class="logo">
+            <img src="logo2.png" alt="logo" width="100" height="100">
+        </div> 
+        <div class="menu-toggle">☰</div>
+
+<ul class="nav-links">
+    <li class="home"><a href="Home" >Home</a></li>
+     <li class="about"><a href="About Us" >About Us</a></li>
+      <li class="product"><a href="Product" >Product</a></li>
+       <li class="service"><a href="Services" >Services</a></li>
+ <li class="contact"><a href="" >Contact Us</a></li>
+ </ul>
 </nav>
 </header>
+<section class="hero">
+
+   <div class="hero-content">
+    <h1 id="store-name">DANIEL FOODSTUFF STORE </h1>
+
+<P id="welcome"><em>welcome to Daniel Foodstuff Store, we have a variety of food items for you to choose from. your trusted place for quality food items. 
+</em></P>
+</div>
+<a href="Product" class="shop-now">SHOP NOW</a>
+</section>
+<section class="about-us">
 <h2>ABOUT US</h2>
 <p>Daniel Foodstuff Store is your one-stop shop for all your food needs.
      We are committed to providing high-quality products at competitive prices</p>
-     <h2>OUR PRODUCTS</h2>
-     <ul>
+</section>
+<section class="our-product">
+     <h2 class="products">OUR PRODUCTS</h2>
+     <ul id="product-list">
          <li><img src="beans.jpg" alt="Beans" width="200" height="200">BEANS</li>
          <li><img src="yam.jpg" alt="yam" width="200" height="200">YAM</li>
         <li><img src="beverages.jpg" alt="beverage" width="200" height="200">BEVERAGE</li>
@@ -32,26 +48,58 @@
          <li><img src="oil.jpg" alt="oil" width="200" height="200">GROUNDNUT OIL</li>
          <li><img src="palmoil.jpg" alt="palmoil" width="200" height="200">PALMOIL</li>
          <li><img src="rice.jpg" alt="rice" width="200" height="200">RICE</li>
-     </ul>s
+         <li><a href="Others">
+            <img src="back2.jpg" id="image" alt="OTHERS" width="200" height="200">  <p id="paragraph">and others</p></a></li>
+     </ul>
+</section>
+     <section class="choose-us">
      <H3>WHY CHOOSE US</H3>
-     <ol>
+     <ul id="choose">
         <li>we sell foodstuffs at affordable and reasonable amount</li>
         <li>we prioritize quality and freshness</li>
         <li>our customer are our priority</li>
         <li>we offer different food items in one place</li>
         <li>we make shopping for foodstuffs easy</li>
-     </ol>
+     </ul>
+    </section>
+    <section class="our-service">
 <h3>OUR SERVICES</h3>
 <p>At Daniel's Foodstuff store, we offer:</p>
-<ul>
+<ul class="services">
     <li>retail sales of foodstuffs</li>
     <li>wholesale sales of food items</li>
     <li>supply of foodstuffs to homes and businesses</li>
     <li>bulk purchases for resturants and event caterers</li>
     <li>delivery services, subject to location and availability</li>
+    </ul>
+    </section>
+     <section class="contact-us">
+        <div class="container"></div>
     <h4>CONTACT US</h4>
+        <div class="contact-form">
+            <form class="contact-form" >
+        <label for="full-name">Full Name:</label>
+          <input type="text" id="full-name" name="full-name" placeholder="FULL NAME"><br></br>
+        </div>
+        <div class="contact-form">
+         <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="EMAIL"><br></br>
+      </div>
+      <div class="contact-form">
+      <label for="message">Message:</label>
+     <textarea id="message" name="message" placeholder="YOUR MESSAGE"></textarea><br></br>
+     <button type="submit" name="btn" id="btn">SUBMIT</button>
+     </form>
+     </div>
+     </div>
+    </section>
+
+    <sectiom class="contact-info">
+    <div class="contact-info">
     <P><strong>Business Name:</strong> Daniel Foodstuff Store</P>
     <p><strong>Phone Number:</strong> 09061179265</p>
     <P><strong>Email:</strong> danielfoodstuff@gmail.com</P>
     <p><strong>Location: </strong> Lagos, Nigeria</p>
 </ul>
+</div>
+</sectiom>
